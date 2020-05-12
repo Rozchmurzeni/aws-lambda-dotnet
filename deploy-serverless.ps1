@@ -1,3 +1,4 @@
+dotnet publish $PSScriptRoot/AwsLambdaDotnet.Functions -c Release
 dotnet lambda deploy-serverless `
     --project-location $PSScriptRoot/AwsLambdaDotnet.Functions `
     --configuration Release `
