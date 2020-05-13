@@ -1,7 +1,4 @@
 namespace AwsLambdaDotnet.Functions
 {
-    public class CalculateStudentGradeResponse
-    {
-        
-    }
+    public class CalculateStudentGradeResponse {}
 }

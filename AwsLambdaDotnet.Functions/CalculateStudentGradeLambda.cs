@@ -5,9 +5,6 @@ namespace AwsLambdaDotnet.Functions
 {
     public class CalculateStudentGradeLambda
     {
-        public Task<CalculateStudentGradeResponse> InvokeAsync()
-        {
-            throw new NotImplementedException();
-        }
+        public Task<CalculateStudentGradeResponse> InvokeAsync() => throw new NotImplementedException();
     }
 }
