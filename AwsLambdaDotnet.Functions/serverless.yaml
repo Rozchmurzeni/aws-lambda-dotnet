@@ -4,7 +4,7 @@ Resources:
   CalculateStudentGradeLambda:
     Type: AWS::Serverless::Function
     Properties:
-      Handler: AwsLambdaDotnet.Functions::AwsLambdaDotnet.Functions.CalculateStudentFinalGradeLambda::Invoke
+      Handler: AwsLambdaDotnet.Functions::AwsLambdaDotnet.Functions.CalculateStudentFinalGrade.CalculateStudentFinalGradeLambda::Invoke
       Runtime: dotnetcore3.1
       CodeUri: bin/Release/netcoreapp3.1/publish
       MemorySize: 1024

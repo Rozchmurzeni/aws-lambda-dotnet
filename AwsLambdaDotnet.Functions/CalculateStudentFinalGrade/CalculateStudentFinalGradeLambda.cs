@@ -1,6 +1,6 @@
 using AwsLambdaDotnet.Domain;
 
-namespace AwsLambdaDotnet.Functions
+namespace AwsLambdaDotnet.Functions.CalculateStudentFinalGrade
 {
     public class CalculateStudentFinalGradeLambda
     {

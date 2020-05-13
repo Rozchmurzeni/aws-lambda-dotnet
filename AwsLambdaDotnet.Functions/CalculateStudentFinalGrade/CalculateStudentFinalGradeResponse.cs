@@ -1,4 +1,4 @@
-namespace AwsLambdaDotnet.Functions
+namespace AwsLambdaDotnet.Functions.CalculateStudentFinalGrade
 {
     public class CalculateStudentFinalGradeResponse
     {
