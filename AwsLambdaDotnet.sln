@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwsLambdaDotnet.Functions",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwsLambdaDotnet.Domain", "AwsLambdaDotnet.Domain\AwsLambdaDotnet.Domain.csproj", "{7E6546CA-D5E3-4737-B966-6B6524E34100}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AwsLambdaDotnet.Tests", "AwsLambdaDotnet.Tests\AwsLambdaDotnet.Tests.csproj", "{94C0C52F-62CE-4BFB-8D87-F83E1FE6BE5F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{7E6546CA-D5E3-4737-B966-6B6524E34100}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E6546CA-D5E3-4737-B966-6B6524E34100}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E6546CA-D5E3-4737-B966-6B6524E34100}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94C0C52F-62CE-4BFB-8D87-F83E1FE6BE5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94C0C52F-62CE-4BFB-8D87-F83E1FE6BE5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94C0C52F-62CE-4BFB-8D87-F83E1FE6BE5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94C0C52F-62CE-4BFB-8D87-F83E1FE6BE5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
