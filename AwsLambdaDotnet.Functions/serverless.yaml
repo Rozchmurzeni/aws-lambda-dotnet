@@ -4,6 +4,7 @@ Resources:
   CalculateStudentGradeLambda:
     Type: AWS::Serverless::Function
     Properties:
+      FunctionName: calculate-student-grade-lambda
       Handler: AwsLambdaDotnet.Functions::AwsLambdaDotnet.Functions.CalculateStudentFinalGrade.CalculateStudentFinalGradeLambda::Invoke
       Runtime: dotnetcore3.1
       CodeUri: bin/Release/netcoreapp3.1/publish
