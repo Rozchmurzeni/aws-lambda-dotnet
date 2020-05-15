@@ -1,0 +1,1 @@
+sam local start-lambda -t AwsLambdaDotnet.Functions/serverless.yaml
